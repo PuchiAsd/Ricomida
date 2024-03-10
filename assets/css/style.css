@@ -39,7 +39,7 @@
 .carousel-indicators [data-bs-target]{
     background-color: black !important;
     border-radius: 90% !important;
-    border-top: 19px solid black !important;
+    border-top: 13px solid black !important;
     border-bottom: 0px !important;
     width: 13px !important;
     height: 0px !important;
