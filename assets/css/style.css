@@ -24,3 +24,23 @@
 .fondoNav{
     background-color: #373A3C !important;
 }
+
+.bold-hr {
+    border: 0;
+    border-top: 2px solid #000;
+    font-weight: bold;
+
+}
+
+.carousel-indicators{
+    margin-bottom: -2rem !important;
+}
+
+.carousel-indicators [data-bs-target]{
+    background-color: black !important;
+    border-radius: 90% !important;
+    border-top: 19px solid black !important;
+    border-bottom: 0px !important;
+    width: 13px !important;
+    height: 0px !important;
+}
