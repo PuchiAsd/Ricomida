@@ -17,7 +17,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg fondoNav">
+        <nav class="navbar navbar-expand-lg navbar-dark fondoNav">
             <div class="container">
                 <h2 class="lobster-regular text-white" href="#">Ricomida</h2>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,18 +42,20 @@
             </div>
         </nav>
     </header>
-    <main class="container pt-5">
+    <main class="container pt-4">
         <section>
-            <div class="row">
-                <div class="col-12 col-md-5">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-6">
                     <img src="assets/img/principal.jpg" class="img-fluid" alt="pizza" tooltip="Hola soy una pizza">
                 </div>
-                <div class="col-12  col-md-4">
+                <div class="col-12 col-md-6 px-4">
                     <h1 class="cabin-bold">PIZZA AL ESTILO CHICAGO CON ESPINACAS Y CHAMPIÑONES</h1>
                     <hr class="bold-hr">
                     <p class="cabin-bold">110 MIN / 6 A 8 PORCIONES</p>
-                    <button type="button" class="btn btn-outline-secondary cabin-400 text-dark">Enviar por correo</button>
-                    <button type="button" class="btn btn-outline-secondary cabin-400 text-dark" >Añadir a favoritos</button>
+                    <div class="d-flex justify-content-start">
+                        <button type="button" class="btn btn-outline-secondary cabin-400 text-dark me-4">Enviar por correo</button>
+                        <button type="button" class="btn btn-outline-secondary cabin-400 text-dark ms-4" >Añadir a favoritos</button>
+                    </div>
                 </div>
             </div>
 
@@ -117,7 +119,7 @@
         <!-- Inicio Recetas -->
         <section class="mt-3">
             <div class="row">
-                <div class="col-6">
+                <div class="col-12 col-md-6">
                     <h5 class="cabin-400">
                         <u> INGREDIENTES </u>
                     </h5>
@@ -144,7 +146,7 @@
                         <li>Relleno </li>
                     </ul>
                 </div>
-                <div class="col-6">
+                <div class="col-12 col-md-6 ">
                     <h5 class="cabin-400">
                         <u> PREPARACIÓN </u>
                     </h5>
@@ -181,12 +183,73 @@
                 </div>
                 <hr class="bold-hr">
             </div>
-
         </section>
-
-
+        <!--Inicio recetas relacionadas-->
+        <section>
+            <div class="container pt-3 pb-4">
+                <h2 class="text-center mb-5">RECETAS RELACIONADAS</h2>
+                <div class="row row-gap-5 mt-5">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card mx-auto" style="width: 18rem;">
+                            <img src="assets/img/recipe-card-1.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">PANQUEQUES CON MANJAR Y CREMA</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card mx-auto" style="width: 18rem;">
+                            <img src="assets/img/recipe-card-2.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">TIRAMISÚ</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card mx-auto" style="width: 18rem;">
+                            <img src="assets/img/recipe-card-3.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">PLATEADA</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
+    <footer>
+        <!--inicio seccion 1footer-->
+        <section class="fondoFooter">
+            <div class="container text-light py-5">
+                <div class="row row-gap-2">
+                    <div class="col-12">
+                        <h2 class="text-center">SUSCRÍBETE EN NUESTRO NEWSLETTER</h2>
+                    </div>
+                    <div class="col-12">
+                        <h3 class="text-center">y obtén las mejores recetas que tenemos en <span class="lobster-regular">Ricomida</span></h3>
+                    </div>
+                    <div class="col-12 my-5 pb-5">
+                        <div class="d-flex justify-content-center">
+                            <button type="button" class="btn btn-outline-light mx-auto px-5">Empezar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Inicio seccion 2footer-->
+        <section>
+            <div class="container-fluid fondoNav py-3">
+                <h2 class="lobster-regular text-light text-center">Ricomida</h2>
+            </div>
+        </section>
+        <section>
+
+        </section>
+    </footer>
     <!-- Jquery -->
     <script
     src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"crossorigin="anonymous"></script>
